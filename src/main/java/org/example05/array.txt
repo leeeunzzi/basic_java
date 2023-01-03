@@ -1,0 +1,10 @@
+# 객체 배열 복사하기
+- System.arrayCopy(src, srcPos, dest, destPos, length)
+: 자바에서 제공되는 배열 복사 메서드
+- 얕은 복사
+: 객체 주소만 복사 -> 한쪽 배열 요소 수정시 같이 수정됨
+: 즉, 두 배열이 같은 객체를 가리킴
+
+# ArrayList
+: 객체 배열을 효율적으로 관리하기 위해 자바에서 제공해주는 클래스
+: 주요 메서드 add, size, get, remove, isEmpty
